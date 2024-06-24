@@ -1,0 +1,23 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  color: rgb(191, 255, 0);
+  text-align: center;
+}
+h2 {
+  color: rgb(255, 221, 0);
+}
+
+.list {
+  color: aquamarine;
+}
+
+li {
+  margin-bottom: 5px;
+}
+li a {
+  text-decoration: none;
+  color: beige;
+}

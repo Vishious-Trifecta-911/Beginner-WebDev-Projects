@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --font-family: "Lato", sans-serif;
+  --brand-color: rgb(191, 255, 0);
+  --home-color: rgb(243, 65, 122);
+  --about-color: rgb(61, 88, 224);
+  --services-color: rgb(117, 178, 56);
+  --blog-color: rgb(225, 160, 70);
+  --contact-color: rgb(100, 123, 229);
+  --body-color: rgb(14, 59, 82);
+  --width: 80%;
+}
+
+@media screen and (max-width: 450px) {
+  .brand {
+    display: none;
+  }
+}
+
+body {
+  font-weight: bold;
+  font-family: var(--font-family);
+  background-color: var(--body-color);
+}
+
+.navbar {
+  background-color: rgb(28, 61, 92);
+  width: var(--width);
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.brand {
+  color: var(--brand-color);
+  margin: 0 10px;
+}
+
+ul {
+  padding: 0 10px;
+  list-style: none;
+  display: flex;
+}
+
+li {
+  margin: 0 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#home {
+  color: var(--home-color);
+}
+
+#about {
+  color: var(--about-color);
+}
+
+#services {
+  color: var(--services-color);
+}
+
+#blog {
+  color: var(--blog-color);
+}
+
+#contact {
+  color: var(--contact-color);
+}
