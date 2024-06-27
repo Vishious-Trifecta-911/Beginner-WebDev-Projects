@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --color: #686d76;
+  --background-color: #eeeeee;
+}
+
+@media screen and (max-width: 435px) {
+  main {
+    height: 40% !important;
+  }
+
+  section {
+    height: 40% !important;
+  }
+
+  section p {
+    display: none;
+  }
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  color: var(--color);
+  background-color: var(--background-color);
+}
+
+nav {
+  background-color: var(--color);
+  position: sticky;
+  top: 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 10px;
+}
+
+img {
+  border-radius: 40px;
+}
+
+section img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  margin: 20px 0;
+}
+
+ul {
+  margin: 20px 20px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+li {
+  color: var(--background-color);
+  margin: 0 5px;
+  font-weight: bold;
+}
+
+main {
+  padding: 10px 10px;
+  width: 80vw;
+  height: 80vh;
+  display: flex;
+  margin: 50px auto;
+}
+
+section {
+  text-align: center;
+  width: 30vw;
+  height: 75vh;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+p {
+  color: var(--color);
+  text-align: left;
+}
+
+article {
+  text-align: center;
+}
+
+h2 {
+  border-radius: 30px;
+  background-color: var(--color);
+  color: var(--background-color);
+  display: inline;
+  padding: 30px;
+}
+
+button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+  color: rgb(52, 127, 248);
+  font-weight: bold;
+  border: 0;
+  background-color: rgba(135, 206, 250, 0.595);
+  margin-top: 10px;
+  padding: 10px 30px;
+  height: 5vh;
+  border-radius: 25px;
+}
+
+footer p {
+  margin: 50px 0;
+  text-align: center;
+  color: var(--color);
+}
+
+.dark-mode {
+  --color: #dc5f00;
+  --background-color: #373a40;
+}
+
+.btn-dark {
+  color: #373a40;
+  background-color: #dc5f00;
+}

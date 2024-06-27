@@ -1,0 +1,25 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav > img {
+  width: 200px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+li {
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  padding: 0 5px;
+}
