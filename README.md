@@ -1,3 +1,3 @@
 These are all the projects I made when learning about Full Stack Web Development using MERN.
 
-The working websites of all the projects mentioned is inside the folder of the individuals projects.
+You can check out the websites by cloning the repo and opening the index.html file for each project
