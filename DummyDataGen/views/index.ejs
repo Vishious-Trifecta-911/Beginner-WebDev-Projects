@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dummy Data Generator</title>
+    <style>
+      button {
+        color: aliceblue;
+        background-color: cornflowerblue;
+        border: none;
+        border-radius: 5px;
+        padding: 10px;
+        font-size: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <button type="button">Generate</button>
+  </body>
+  <script>
+    document.querySelector("button").addEventListener("click", async () => {
+      const url = await fetch("/generate");
+    });
+  </script>
+</html>
